@@ -178,11 +178,11 @@ const Home: NextPage = () => {
 							}}
 						>
 							<Text fontSize="xl" fontWeight="bold">
-								Dolphin &apos;s Cove Cottage
+								Dolphin&apos;s Cove Cottage
 							</Text>
 							<Text fontSize="xl" fontWeight="normal">
 								A gallery site to showcase a gem on the Wild Atlantic Way. The
-								site reduced the renters &apos; marketing costs significantly
+								site reduced the renters&apos; marketing costs significantly
 							</Text>
 						</Box>
 					</motion.div>
