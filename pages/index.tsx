@@ -248,9 +248,9 @@ const Home: NextPage = () => {
 									Consultant @ ToDesktop
 								</Text>
 								<Text fontSize="xl" fontWeight="normal">
-									I designed and developed an algorithm to remove data that was
-									not linked to an active subscription and to monitor
-									subscriptions to improve communication with users.
+									I created a tool to clean up AWS S3 buckets. It broke down the
+									assets stored and evaluated their subscriptions via Stripe to
+									determine whether or not to delete them.
 								</Text>
 							</Box>
 						</motion.div>
@@ -308,8 +308,8 @@ const Home: NextPage = () => {
 										TV Series on Cúla4
 									</Text>
 									<Text fontSize="xl" fontWeight="normal">
-										I wrote and presented a six episode series on coding through
-										Irish that was aired weekly on TG4 during the beginning of
+										I wrote and presented a 6 episode series on coding through
+										Irish that was aired weekly on Cúla4 during the beginning of
 										2015.
 									</Text>
 								</Box>
