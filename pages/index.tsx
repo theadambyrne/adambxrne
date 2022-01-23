@@ -57,13 +57,13 @@ const Home: NextPage = () => {
 	return (
 		<Box bg="#2c3e50" color="#fff">
 			<Head>
-				<title>Adam Byrne, Developer.</title>
+				<title>@adambxrne</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta name="title" content="Adam Byrne - Developer Portfolio" />
 				<meta name="description" content="Adam Byrne, 19. Web Developer." />
 				<meta
 					name="keywords"
-					content="portfolio,react,typescript,javascript,svelte,web development,web design,devops,sales,leadership"
+					content="portfolio,react,typescript,javascript,svelte,web development,web design,devops,sales,leadership,ireland"
 				/>
 				<meta name="robots" content="index, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
