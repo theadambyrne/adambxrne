@@ -75,11 +75,12 @@ const Home: NextPage = () => {
 			{/* Hero */}
 			<Container maxW="container.md" mt={10}>
 				<Text fontSize="6xl" fontWeight="bold" translate="no">
-					Adam B<span style={{ color: "#F92672" }}>y</span>rne
+					Adam B<span style={{ color: "#F92672" }}>y</span>
+					rne
 				</Text>
 
 				<Text fontSize="2xl" fontWeight="normal">
-					Solving problems with code.
+					👉 Solving problems with code.
 				</Text>
 
 				{/* Tools */}
@@ -240,7 +241,7 @@ const Home: NextPage = () => {
 							>
 								<Box style={webDesignStyles}>
 									<Text fontSize="xl" fontWeight="bold">
-										Dolphin&apos;s Cove Cottage
+										🐬 Dolphin&apos;s Cove Cottage
 									</Text>
 									<Text fontSize="xl" fontWeight="normal">
 										A gallery site to showcase a gem on the Wild Atlantic Way.
@@ -258,7 +259,7 @@ const Home: NextPage = () => {
 							>
 								<Box style={webDesignStyles}>
 									<Text fontSize="xl" fontWeight="bold">
-										Walled Garden Cottage, Lough Derg
+										🏡 Walled Garden Cottage, Lough Derg
 									</Text>
 									<Text fontSize="xl" fontWeight="normal">
 										Another site to advertise a holiday cottage on Lough Derg.
@@ -288,7 +289,7 @@ const Home: NextPage = () => {
 						>
 							<Box style={devOpsStyles}>
 								<Text fontSize="xl" fontWeight="bold">
-									Pruning Script @ ToDesktop
+									🚀 Consultant @ ToDesktop
 								</Text>
 								<Text fontSize="xl" fontWeight="normal">
 									I created a tool to save money on AWS Infrastructure costs. It
@@ -311,7 +312,7 @@ const Home: NextPage = () => {
 						}}
 					>
 						<Text fontSize="2xl" color="#FD971F" mt={5}>
-							&lt;AWS Certification /&gt;
+							&lt;AWS Certification/&gt;
 						</Text>
 						<motion.div
 							whileHover={{ opacity: [1, 0, 1] }}
@@ -319,7 +320,7 @@ const Home: NextPage = () => {
 						>
 							<Box style={certificationStyles}>
 								<Text fontSize="xl" fontWeight="bold">
-									Certified Cloud Practitioner
+									☁️ Certified Cloud Practitioner
 								</Text>
 								<Text fontSize="xl" fontWeight="normal">
 									IN PROGRESS
@@ -349,7 +350,7 @@ const Home: NextPage = () => {
 							>
 								<Box style={leadershipStyles}>
 									<Text fontSize="xl" fontWeight="bold">
-										TV Series on Cúla4
+										📺 TV Series on Cúla4
 									</Text>
 									<Text fontSize="xl" fontWeight="normal">
 										I wrote and presented a 6 episode series on coding through
@@ -362,7 +363,7 @@ const Home: NextPage = () => {
 						<motion.div whileHover={{ rotate: -10 }} whileTap={{ scale: 0.9 }}>
 							<Box style={leadershipStyles}>
 								<Text fontSize="xl" fontWeight="bold">
-									Instructor @ Dingle Sailing Club
+									⛵️ Instructor @ Dingle Sailing Club
 								</Text>
 								<Text fontSize="xl" fontWeight="normal">
 									I teach kids and adults how to sail from zero to hero on
@@ -373,7 +374,7 @@ const Home: NextPage = () => {
 						<motion.div whileHover={{ rotate: 10 }} whileTap={{ scale: 0.9 }}>
 							<Box style={leadershipStyles}>
 								<Text fontSize="xl" fontWeight="bold">
-									Mentor @ Dingle Coderdojo
+									📟 Mentor @ Dingle Coderdojo
 								</Text>
 								<Text fontSize="xl" fontWeight="normal">
 									I mentor kids of all ages through English and Irish at Dingle
@@ -384,7 +385,7 @@ const Home: NextPage = () => {
 						<motion.div whileHover={{ rotate: -10 }} whileTap={{ scale: 0.9 }}>
 							<Box style={leadershipStyles}>
 								<Text fontSize="xl" fontWeight="bold">
-									PRO @ Dingle Sailing Club
+									💭 PRO @ Dingle Sailing Club
 								</Text>
 								<Text fontSize="xl" fontWeight="normal">
 									2021-2022 I served the role of Public Relations Officer on the
