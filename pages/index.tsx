@@ -128,7 +128,7 @@ const Home: NextPage = () => {
 						}}
 					>
 						<Box>
-							<Image src={react} alt="React" height={50} width={80} />
+							<Image src={react} alt="React" width={80} height={55} />
 						</Box>
 					</motion.div>
 
@@ -164,56 +164,56 @@ const Home: NextPage = () => {
 
 				<Flex mt={5}>
 					<Spacer />
-					<Link
-						href={"https://github.com/theadambyrne"}
-						target="_blank"
-						style={linkStyles}
+					<motion.div
+						whileHover={{ rotate: 180 }}
+						transition={{
+							type: "spring",
+							duration: 0.5,
+						}}
 					>
-						<motion.div
-							whileHover={{ rotate: 180 }}
-							transition={{
-								type: "spring",
-								duration: 0.5,
-							}}
+						<Link
+							href={"https://github.com/theadambyrne"}
+							target="_blank"
+							style={linkStyles}
 						>
 							<Text color="#F92672" fontSize="lg">
 								&lt;<span style={{ color: "#ffffff !important" }}>GitHub</span>
 								/&gt;
 							</Text>
-						</motion.div>
-					</Link>
+						</Link>
+					</motion.div>
 
 					<Spacer />
-					<Link
-						href={"https://twitter.com/adambxrne"}
-						target="_blank"
-						style={linkStyles}
+					<motion.div
+						whileHover={{ rotate: -180 }}
+						transition={{
+							type: "spring",
+							duration: 0.5,
+						}}
 					>
-						<motion.div
-							whileHover={{ rotate: -180 }}
-							transition={{
-								type: "spring",
-								duration: 0.5,
-							}}
+						<Link
+							href={"https://twitter.com/adambxrne"}
+							target="_blank"
+							style={linkStyles}
 						>
 							<Text color="#F92672" fontSize="lg">
 								&lt;<span style={{ color: "#ffffff !important" }}>Twitter</span>
 								/&gt;
 							</Text>
-						</motion.div>
-					</Link>
+						</Link>
+					</motion.div>
 					<Spacer />
-					<Link
-						href={"https://stackoverflow.com/users/13777286/adam-byrne"}
-						target="_blank"
-						style={linkStyles}
+					<motion.div
+						whileHover={{ rotate: 180 }}
+						transition={{
+							type: "spring",
+							duration: 0.5,
+						}}
 					>
-						<motion.div
-							whileHover={{ rotate: 180 }}
-							transition={{
-								type: "spring",
-								duration: 0.5,
-							}}
+						<Link
+							href={"https://stackoverflow.com/users/13777286/adam-byrne"}
+							target="_blank"
+							style={linkStyles}
 						>
 							<Text color="#F92672" fontSize="lg">
 								&lt;
@@ -222,9 +222,8 @@ const Home: NextPage = () => {
 								</span>
 								/&gt;
 							</Text>
-						</motion.div>
-					</Link>
-
+						</Link>
+					</motion.div>
 					<Spacer />
 				</Flex>
 			</Container>
