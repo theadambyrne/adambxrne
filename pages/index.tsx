@@ -19,6 +19,7 @@ import typescript from "../public/typescript.png";
 import react from "../public/react.png";
 import javascript from "../public/js.svg";
 import svelte from "../public/svelte.png";
+import awsImg from "../public/aws.png";
 
 //section styling
 export const webDesignStyles = {
@@ -30,14 +31,14 @@ export const webDesignStyles = {
 
 export const devOpsStyles = {
 	borderRadius: "10px",
-	border: "2px solid #FD971F",
+	border: "2px solid #A6E22E",
 	margin: 10,
 	padding: 10,
 };
 
-export const salesStyles = {
+export const certificationStyles = {
 	borderRadius: "10px",
-	border: "2px solid #A6E22E",
+	border: "2px solid #FD971F",
 	margin: 10,
 	padding: 10,
 };
@@ -142,6 +143,19 @@ const Home: NextPage = () => {
 					>
 						<Box>
 							<Image src={svelte} alt="Svelte" height={50} width={50} />
+						</Box>
+					</motion.div>
+					<Spacer />
+					<motion.div
+						animate={{ rotate: 360 }}
+						transition={{
+							type: "spring",
+							delay: 2,
+							duration: 1,
+						}}
+					>
+						<Box>
+							<Image src={awsImg} alt="AWS" height={50} width={50} />
 						</Box>
 					</motion.div>
 				</Flex>
@@ -275,7 +289,7 @@ const Home: NextPage = () => {
 							delay: 1,
 						}}
 					>
-						<Text fontSize="2xl" color="#FD971F" mt={5}>
+						<Text fontSize="2xl" color="#A6E22E" mt={5}>
 							&lt;dev.ops /&gt;
 						</Text>
 						<motion.div
@@ -305,19 +319,19 @@ const Home: NextPage = () => {
 							delay: 1.3,
 						}}
 					>
-						<Text fontSize="2xl" color="#A6E22E" mt={5}>
-							&lt;sales /&gt;
+						<Text fontSize="2xl" color="#FD971F" mt={5}>
+							&lt;AWS Certification /&gt;
 						</Text>
 						<motion.div
 							whileHover={{ opacity: [1, 0, 1] }}
 							whileTap={{ scale: 0.9 }}
 						>
-							<Box style={salesStyles}>
+							<Box style={certificationStyles}>
 								<Text fontSize="xl" fontWeight="bold">
-									...
+									Certified Cloud Practitioner
 								</Text>
 								<Text fontSize="xl" fontWeight="normal">
-									...
+									IN PROGRESS
 								</Text>
 							</Box>
 						</motion.div>
