@@ -155,7 +155,13 @@ const Home: NextPage = () => {
 						target="_blank"
 						style={linkStyles}
 					>
-						<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+						<motion.div
+							whileHover={{ rotate: 180 }}
+							transition={{
+								type: "spring",
+								duration: 0.5,
+							}}
+						>
 							<Text color="#F92672" fontSize="lg">
 								&lt;<span style={{ color: "#ffffff !important" }}>GitHub</span>
 								/&gt;
@@ -169,7 +175,13 @@ const Home: NextPage = () => {
 						target="_blank"
 						style={linkStyles}
 					>
-						<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+						<motion.div
+							whileHover={{ rotate: -180 }}
+							transition={{
+								type: "spring",
+								duration: 0.5,
+							}}
+						>
 							<Text color="#F92672" fontSize="lg">
 								&lt;<span style={{ color: "#ffffff !important" }}>Twitter</span>
 								/&gt;
@@ -182,7 +194,13 @@ const Home: NextPage = () => {
 						target="_blank"
 						style={linkStyles}
 					>
-						<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+						<motion.div
+							whileHover={{ rotate: 180 }}
+							transition={{
+								type: "spring",
+								duration: 0.5,
+							}}
+						>
 							<Text color="#F92672" fontSize="lg">
 								&lt;
 								<span style={{ color: "#ffffff !important" }}>
