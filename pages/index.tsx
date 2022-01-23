@@ -171,6 +171,18 @@ const Home: NextPage = () => {
 							/&gt;
 						</Text>
 					</Link>
+					<Spacer />
+					<Link
+						href={"https://stackoverflow.com/users/13777286/adam-byrne"}
+						target="_blank"
+						style={linkStyles}
+					>
+						<Text color="#F92672" fontSize="lg">
+							&lt;
+							<span style={{ color: "#ffffff !important" }}>StackOverflow</span>
+							/&gt;
+						</Text>
+					</Link>
 
 					<Spacer />
 				</Flex>
