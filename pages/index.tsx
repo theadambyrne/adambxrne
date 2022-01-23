@@ -22,34 +22,34 @@ import svelte from "../public/svelte.png";
 import awsImg from "../public/aws.png";
 
 //section styling
-export const webDesignStyles = {
+const webDesignStyles = {
 	borderRadius: "10px",
 	border: "2px solid #F92672",
 	margin: 10,
 	padding: 10,
 };
 
-export const devOpsStyles = {
+const devOpsStyles = {
 	borderRadius: "10px",
 	border: "2px solid #A6E22E",
 	margin: 10,
 	padding: 10,
 };
 
-export const certificationStyles = {
+const certificationStyles = {
 	borderRadius: "10px",
 	border: "2px solid #FD971F",
 	margin: 10,
 	padding: 10,
 };
 
-export const leadershipStyles = {
+const leadershipStyles = {
 	borderRadius: "10px",
 	border: "2px solid #66D9EF",
 	margin: 10,
 	padding: 10,
 };
-export const linkStyles = {
+const linkStyles = {
 	textDecoration: "none",
 };
 
@@ -74,18 +74,9 @@ const Home: NextPage = () => {
 
 			{/* Hero */}
 			<Container maxW="container.md" mt={10}>
-				<motion.div
-					initial={{ x: 50 }}
-					animate={{ x: [50, 0] }}
-					transition={{
-						type: "spring",
-						duration: 0.5,
-					}}
-				>
-					<Text fontSize="6xl" fontWeight="bold" translate="no">
-						Adam B<span style={{ color: "#F92672" }}>y</span>rne
-					</Text>
-				</motion.div>
+				<Text fontSize="6xl" fontWeight="bold" translate="no">
+					Adam B<span style={{ color: "#F92672" }}>y</span>rne
+				</Text>
 
 				<Text fontSize="2xl" fontWeight="normal">
 					Solving problems with code.
