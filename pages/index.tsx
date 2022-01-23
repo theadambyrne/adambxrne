@@ -297,12 +297,13 @@ const Home: NextPage = () => {
 						>
 							<Box style={devOpsStyles}>
 								<Text fontSize="xl" fontWeight="bold">
-									Consultant @ ToDesktop
+									Pruning Script @ ToDesktop
 								</Text>
 								<Text fontSize="xl" fontWeight="normal">
-									I created a tool to clean up AWS S3 buckets. It broke down the
-									assets stored and evaluated their subscriptions via Stripe to
-									determine whether or not to delete them.
+									I created a tool to save money on AWS Infrastructure costs. It
+									analyses files stored in S3 bucket and cross-references them
+									with Stripe subscriptions in order to find redundant files and
+									save space.
 								</Text>
 							</Box>
 						</motion.div>
