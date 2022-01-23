@@ -31,13 +31,6 @@ const webDesignStyles = {
 
 const devOpsStyles = {
 	borderRadius: "10px",
-	border: "2px solid #A6E22E",
-	margin: 10,
-	padding: 10,
-};
-
-const certificationStyles = {
-	borderRadius: "10px",
 	border: "2px solid #FD971F",
 	margin: 10,
 	padding: 10,
@@ -57,7 +50,7 @@ const Home: NextPage = () => {
 	return (
 		<Box bg="#2c3e50" color="#fff">
 			<Head>
-				<title>@adambxrne</title>
+				<title>portfolio@adambxrne</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta name="title" content="Adam Byrne - Developer Portfolio" />
 				<meta name="description" content="Adam Byrne, 19. Web Developer." />
@@ -280,7 +273,7 @@ const Home: NextPage = () => {
 							delay: 1,
 						}}
 					>
-						<Text fontSize="2xl" color="#A6E22E" mt={5}>
+						<Text fontSize="2xl" color="#FD971F" mt={5}>
 							&lt;dev.ops /&gt;
 						</Text>
 						<motion.div
@@ -299,31 +292,17 @@ const Home: NextPage = () => {
 								</Text>
 							</Box>
 						</motion.div>
-					</motion.div>
 
-					{/* Sales */}
-					<motion.div
-						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
-						transition={{
-							type: "spring",
-							duration: 1,
-							delay: 1.3,
-						}}
-					>
-						<Text fontSize="2xl" color="#FD971F" mt={5}>
-							&lt;AWS Certification/&gt;
-						</Text>
 						<motion.div
-							whileHover={{ opacity: [1, 0, 1] }}
+							whileHover={{ rotate: [0, 10, -10, 0] }}
 							whileTap={{ scale: 0.9 }}
 						>
-							<Box style={certificationStyles}>
+							<Box style={devOpsStyles}>
 								<Text fontSize="xl" fontWeight="bold">
-									☁️ Certified Cloud Practitioner
+									☁️ AWS Certified Cloud Practitioner
 								</Text>
 								<Text fontSize="xl" fontWeight="normal">
-									IN PROGRESS
+									Only a few days away from sitting the exam! 📈
 								</Text>
 							</Box>
 						</motion.div>
