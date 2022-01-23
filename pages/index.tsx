@@ -18,7 +18,7 @@ const Home: NextPage = () => {
 				<title>portfolio@adambxrne</title>
 				<link rel="icon" href="/favicon.ico" />
 				<meta name="title" content="Adam Byrne - Developer Portfolio" />
-				<meta name="description" content="Adam Byrne, 19. Web Developer." />
+				<meta name="description" content="Adam Byrne - Developer Portfolio" />
 				<meta
 					name="keywords"
 					content="portfolio,react,typescript,javascript,svelte,web development,web design,devops,sales,leadership,ireland"

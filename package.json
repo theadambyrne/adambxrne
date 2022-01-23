@@ -1,27 +1,35 @@
 {
-  "name": "bxrne",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@chakra-ui/react": "^1.7.4",
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
-    "framer-motion": "^5",
-    "next": "12.0.8",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "sharp": "^0.29.3"
-  },
-  "devDependencies": {
-    "@types/node": "17.0.10",
-    "@types/react": "17.0.38",
-    "eslint": "8.7.0",
-    "eslint-config-next": "12.0.8",
-    "typescript": "4.5.4"
-  }
+	"name": "bxrne",
+	"author": "Adam Byrne",
+	"url": "https://bxrne.com",
+	"description": "Adam Byrne - Developer Portfolio",
+	"socials": {
+		"twitter": "https://twitter.com/adambxrne",
+		"github": "https://github.com/theadambyrne",
+		"stackoverflow": "https://stackoverflow.com/users/13777286/adam-byrne"
+	},
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@chakra-ui/react": "^1.7.4",
+		"@emotion/react": "^11",
+		"@emotion/styled": "^11",
+		"framer-motion": "^5",
+		"next": "12.0.8",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"sharp": "^0.29.3"
+	},
+	"devDependencies": {
+		"@types/node": "17.0.10",
+		"@types/react": "17.0.38",
+		"eslint": "8.7.0",
+		"eslint-config-next": "12.0.8",
+		"typescript": "4.5.4"
+	}
 }
