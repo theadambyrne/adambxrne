@@ -17,6 +17,7 @@ const Home: NextPage = () => {
 			<Head>
 				<title>portfolio@adambxrne</title>
 				<link rel="icon" href="/favicon.ico" />
+				<link rel="canonical" href="https://bxrne.com" />
 				<meta name="title" content="Adam Byrne - Developer Portfolio" />
 				<meta name="description" content="Adam Byrne - Developer Portfolio" />
 				<meta
