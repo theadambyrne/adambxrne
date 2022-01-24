@@ -25,7 +25,7 @@ const Socials = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 				>
-					<Text color="#F92672" fontSize="lg">
+					<Text color="#FD971F" fontSize="lg">
 						&lt;<span style={{ color: "#ffffff !important" }}>Twitter</span>
 						/&gt;
 					</Text>
@@ -38,7 +38,7 @@ const Socials = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 				>
-					<Text color="#F92672" fontSize="lg">
+					<Text color="#66D9EF" fontSize="lg">
 						&lt;
 						<span style={{ color: "#ffffff !important" }}>StackOverflow</span>
 						/&gt;
