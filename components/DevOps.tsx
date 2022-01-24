@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Text, Box } from "@chakra-ui/react";
+import { Text, Box, Link } from "@chakra-ui/react";
 
 const styles = {
 	borderRadius: "10px",
@@ -26,31 +26,43 @@ const DevOps = () => {
 				whileHover={{ rotate: [0, 10, -10, 0] }}
 				whileTap={{ scale: 0.9 }}
 			>
-				<Box style={styles}>
-					<Text fontSize="xl" fontWeight="bold">
-						🚀 Consultant @ ToDesktop
-					</Text>
-					<Text fontSize="xl" fontWeight="normal">
-						I created a tool to save money on AWS Infrastructure costs. It
-						analyses files stored in S3 bucket and cross-references them with
-						Stripe subscriptions in order to find redundant files and save
-						space.
-					</Text>
-				</Box>
+				<Link
+					href={"https://todesktop.com"}
+					target="_blank"
+					style={{ textDecoration: "none" }}
+				>
+					<Box style={styles}>
+						<Text fontSize="xl" fontWeight="bold">
+							🚀 Consultant @ ToDesktop
+						</Text>
+						<Text fontSize="xl" fontWeight="normal">
+							I created a tool to save money on AWS Infrastructure costs. It
+							analyses files stored in S3 bucket and cross-references them with
+							Stripe subscriptions in order to find redundant files and save
+							space.
+						</Text>
+					</Box>
+				</Link>
 			</motion.div>
 
 			<motion.div
 				whileHover={{ rotate: [0, 10, -10, 0] }}
 				whileTap={{ scale: 0.9 }}
 			>
-				<Box style={styles}>
-					<Text fontSize="xl" fontWeight="bold">
-						☁️ AWS Certified Cloud Practitioner
-					</Text>
-					<Text fontSize="xl" fontWeight="normal">
-						Only a few days away from sitting the exam! 📈
-					</Text>
-				</Box>
+				<Link
+					href={"about:blank"}
+					target="_blank"
+					style={{ textDecoration: "none" }}
+				>
+					<Box style={styles}>
+						<Text fontSize="xl" fontWeight="bold">
+							☁️ AWS Certified Cloud Practitioner
+						</Text>
+						<Text fontSize="xl" fontWeight="normal">
+							Only a few days away from sitting the exam! 📈
+						</Text>
+					</Box>
+				</Link>
 			</motion.div>
 		</motion.div>
 	);
