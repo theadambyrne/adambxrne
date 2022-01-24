@@ -15,7 +15,7 @@ const DevOps = () => {
 				&lt;dev.ops /&gt;
 			</Text>
 			<motion.div
-				whileHover={{ rotate: [0, 10, -10, 0] }}
+				whileHover={{ rotate: [0, 5, -5, 0] }}
 				whileTap={{ scale: 0.9 }}
 			>
 				<Link
@@ -38,7 +38,7 @@ const DevOps = () => {
 			</motion.div>
 
 			<motion.div
-				whileHover={{ rotate: [0, 10, -10, 0] }}
+				whileHover={{ rotate: [0, 5, -5, 0] }}
 				whileTap={{ scale: 0.9 }}
 			>
 				<Link
