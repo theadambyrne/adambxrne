@@ -10,15 +10,7 @@ const styles = {
 
 const Leadership = () => {
 	return (
-		<motion.div
-			initial={{ scale: 0 }}
-			animate={{ scale: 1 }}
-			transition={{
-				type: "spring",
-				duration: 1,
-				delay: 1.6,
-			}}
-		>
+		<section>
 			<Text fontSize="2xl" color="#66D9EF" mt={5}>
 				&lt;leadership /&gt;
 			</Text>
@@ -90,7 +82,7 @@ const Leadership = () => {
 					</Box>
 				</Link>
 			</motion.div>
-		</motion.div>
+		</section>
 	);
 };
 

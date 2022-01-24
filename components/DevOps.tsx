@@ -10,15 +10,7 @@ const styles = {
 
 const DevOps = () => {
 	return (
-		<motion.div
-			initial={{ rotate: 45, scale: 0 }}
-			animate={{ rotate: [0, 10, -10, 0], scale: 1 }}
-			transition={{
-				type: "spring",
-				duration: 0.3,
-				delay: 1,
-			}}
-		>
+		<section>
 			<Text fontSize="2xl" color="#FD971F" mt={5}>
 				&lt;dev.ops /&gt;
 			</Text>
@@ -64,7 +56,7 @@ const DevOps = () => {
 					</Box>
 				</Link>
 			</motion.div>
-		</motion.div>
+		</section>
 	);
 };
 

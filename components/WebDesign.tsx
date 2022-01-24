@@ -10,14 +10,7 @@ const styles = {
 
 const WebDesign = () => {
 	return (
-		<motion.div
-			initial={{ scale: 0 }}
-			animate={{ scale: 1 }}
-			transition={{
-				type: "spring",
-				duration: 0.7,
-			}}
-		>
+		<section>
 			<Text fontSize="2xl" color="#F92672">
 				&lt;web.design /&gt;
 			</Text>
@@ -55,7 +48,7 @@ const WebDesign = () => {
 					</Box>
 				</Link>
 			</motion.div>
-		</motion.div>
+		</section>
 	);
 };
 
