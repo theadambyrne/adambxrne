@@ -36,26 +36,6 @@ const DevOps = () => {
 					</Box>
 				</Link>
 			</motion.div>
-
-			<motion.div
-				whileHover={{ rotate: [0, 5, -5, 0] }}
-				whileTap={{ scale: 0.9 }}
-			>
-				<Link
-					href={"about:blank"}
-					target="_blank"
-					style={{ textDecoration: "none" }}
-				>
-					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold">
-							☁️ AWS Certified Cloud Practitioner
-						</Text>
-						<Text fontSize="xl" fontWeight="normal">
-							Only a few days away from sitting the exam! 📈
-						</Text>
-					</Box>
-				</Link>
-			</motion.div>
 		</section>
 	);
 };
