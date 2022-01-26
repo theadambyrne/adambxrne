@@ -7,7 +7,7 @@ import { Box, Container } from "@chakra-ui/react";
 // custom components
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import WebDesign from "../components/WebDesign";
+import WebDesign from "../components/WebDev";
 import DevOps from "../components/DevOps";
 import Leadership from "../components/Leadership";
 

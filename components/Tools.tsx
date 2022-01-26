@@ -6,7 +6,6 @@ import typescript from "../public/typescript.png";
 import react from "../public/react.png";
 import javascript from "../public/js.svg";
 import svelte from "../public/svelte.png";
-import awsImg from "../public/aws.png";
 
 const Tools = () => {
 	return (
@@ -61,19 +60,6 @@ const Tools = () => {
 			>
 				<Box>
 					<Image src={svelte} alt="Svelte" height={50} width={50} />
-				</Box>
-			</motion.div>
-			<Spacer />
-			<motion.div
-				animate={{ rotate: 360 }}
-				transition={{
-					type: "spring",
-					delay: 2,
-					duration: 1,
-				}}
-			>
-				<Box>
-					<Image src={awsImg} alt="AWS" height={50} width={50} />
 				</Box>
 			</motion.div>
 		</Flex>

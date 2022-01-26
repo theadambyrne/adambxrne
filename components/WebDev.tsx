@@ -8,11 +8,11 @@ const styles = {
 	padding: 10,
 };
 
-const WebDesign = () => {
+const WebDev = () => {
 	return (
 		<section>
 			<Text fontSize="2xl" color="#F92672">
-				&lt;web.design /&gt;
+				&lt;web.dev /&gt;
 			</Text>
 			<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
 				<Link
@@ -48,8 +48,24 @@ const WebDesign = () => {
 					</Box>
 				</Link>
 			</motion.div>
+			<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+				<Link
+					href={"http://siopa.io"}
+					target="_blank"
+					style={{ textDecoration: "none" }}
+				>
+					<Box style={styles}>
+						<Text fontSize="xl" fontWeight="bold">
+							🛒 Siopa.io
+						</Text>
+						<Text fontSize="xl" fontWeight="normal">
+							A multi-user shopping list app.
+						</Text>
+					</Box>
+				</Link>
+			</motion.div>
 		</section>
 	);
 };
 
-export default WebDesign;
+export default WebDev;
