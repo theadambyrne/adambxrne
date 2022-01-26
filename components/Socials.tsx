@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { Box, Flex, Spacer, Text, Link, Center } from "@chakra-ui/react";
-
+import { Box, Flex, Spacer, Text, Link } from "@chakra-ui/react";
 const Socials = () => {
 	return (
 		<Box>
@@ -48,7 +47,8 @@ const Socials = () => {
 				</motion.div>
 				<Spacer />
 			</Flex>
-			<Center mt={3}>
+			<Flex mt={3}>
+				<Spacer />
 				<motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
 					<Link
 						href={"mailto:adamrbyrne@gmail.com"}
@@ -58,7 +58,18 @@ const Socials = () => {
 						<Text fontSize="lg">✉️ adamrbyrne@gmail.com</Text>
 					</Link>
 				</motion.div>
-			</Center>
+				<Spacer />
+				<motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
+					<Link
+						href={"http://adambyrne.bet/2022 Adam Byrne CV.pdf"}
+						target="_blank"
+						style={{ textDecoration: "none", cursor: "pointer" }}
+					>
+						<Text fontSize="lg">📜 CV</Text>
+					</Link>
+				</motion.div>
+				<Spacer />
+			</Flex>
 		</Box>
 	);
 };
