@@ -61,7 +61,7 @@ const Socials = () => {
 				<Spacer />
 				<motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
 					<Link
-						href={"http://adambyrne.bet/2022 Adam Byrne CV.pdf"}
+						href={"http://adambyrne.net/2022 Adam Byrne CV.pdf"}
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 					>
