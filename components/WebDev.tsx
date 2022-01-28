@@ -19,6 +19,7 @@ const WebDev = () => {
 					href={"https://dolphinscovecottage.com"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					rel="noreferrer"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -36,6 +37,7 @@ const WebDev = () => {
 					href={"https://walledgardencottageloughderg.com"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					rel="noreferrer"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -53,6 +55,7 @@ const WebDev = () => {
 					href={"http://siopa.io"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					rel="noreferrer"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">

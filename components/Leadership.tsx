@@ -19,6 +19,7 @@ const Leadership = () => {
 					href={"https://player.vimeo.com/video/120291728?autoplay=1"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					rel="noreferrer"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -36,6 +37,7 @@ const Leadership = () => {
 					href={"https://dinglesailingclub.com/"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					rel="noreferrer"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -53,6 +55,7 @@ const Leadership = () => {
 					href={"https://dingledojo.com"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					rel="noreferrer"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -70,6 +73,7 @@ const Leadership = () => {
 					href={"https://dinglesailingclub.com/"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					rel="noreferrer"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">

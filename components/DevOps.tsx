@@ -22,6 +22,7 @@ const DevOps = () => {
 					href={"https://todesktop.com"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					rel="noreferrer"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
