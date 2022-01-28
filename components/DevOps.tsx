@@ -10,8 +10,8 @@ const styles = {
 
 const DevOps = () => {
 	return (
-		<Box>
-			<Text fontSize="2xl" color="#FD971F" mt={5}>
+		<Box mt={5}>
+			<Text fontSize="3xl" color="#FD971F">
 				&lt;dev.ops /&gt;
 			</Text>
 			<motion.div
@@ -23,6 +23,7 @@ const DevOps = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
+					passHref
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">

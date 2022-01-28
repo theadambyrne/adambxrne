@@ -11,7 +11,7 @@ const styles = {
 const WebDev = () => {
 	return (
 		<Box>
-			<Text fontSize="2xl" color="#F92672">
+			<Text fontSize="3xl" color="#F92672">
 				&lt;web.dev /&gt;
 			</Text>
 			<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
@@ -20,6 +20,7 @@ const WebDev = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
+					passHref
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -38,6 +39,7 @@ const WebDev = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
+					passHref
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -56,6 +58,7 @@ const WebDev = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
+					passHref
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">

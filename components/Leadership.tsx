@@ -10,8 +10,8 @@ const styles = {
 
 const Leadership = () => {
 	return (
-		<Box>
-			<Text fontSize="2xl" color="#66D9EF" mt={5}>
+		<Box mt={5}>
+			<Text fontSize="3xl" color="#66D9EF">
 				&lt;leadership /&gt;
 			</Text>
 			<motion.div whileHover={{ rotate: 10 }} whileTap={{ scale: 0.9 }}>
@@ -20,6 +20,7 @@ const Leadership = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
+					passHref
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -38,6 +39,7 @@ const Leadership = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
+					passHref
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -56,6 +58,7 @@ const Leadership = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
+					passHref
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -74,6 +77,7 @@ const Leadership = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
+					passHref
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">

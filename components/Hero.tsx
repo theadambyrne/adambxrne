@@ -1,4 +1,4 @@
-import { Box, Container, Text } from "@chakra-ui/react";
+import { Container, Text } from "@chakra-ui/react";
 
 import Socials from "./Socials";
 import Tools from "./Tools";

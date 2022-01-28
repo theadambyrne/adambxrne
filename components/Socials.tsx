@@ -12,6 +12,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
+						passHref
 					>
 						<Text color="#F92672" fontSize="lg">
 							&lt;<span style={{ color: "#ffffff !important" }}>GitHub</span>
@@ -27,6 +28,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
+						passHref
 					>
 						<Text color="#FD971F" fontSize="lg">
 							&lt;<span style={{ color: "#ffffff !important" }}>Twitter</span>
@@ -41,6 +43,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
+						passHref
 					>
 						<Text color="#66D9EF" fontSize="lg">
 							&lt;
@@ -59,6 +62,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
+						passHref
 					>
 						<Text fontSize="lg">✉️ adamrbyrne@gmail.com</Text>
 					</Link>
@@ -70,6 +74,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
+						passHref
 					>
 						<Text fontSize="lg">📜 CV</Text>
 					</Link>
