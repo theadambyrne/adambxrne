@@ -10,8 +10,8 @@ const styles = {
 
 const Leadership = () => {
 	return (
-		<Box role="column">
-			<Text fontSize="2xl" color="#66D9EF" mt={5} role="columnheader">
+		<Box>
+			<Text fontSize="2xl" color="#66D9EF" mt={5}>
 				&lt;leadership /&gt;
 			</Text>
 			<motion.div whileHover={{ rotate: 10 }} whileTap={{ scale: 0.9 }}>
@@ -19,7 +19,6 @@ const Leadership = () => {
 					href={"https://player.vimeo.com/video/120291728?autoplay=1"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
-					role="link"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">

@@ -2,7 +2,7 @@ import { Center, Text } from "@chakra-ui/react";
 
 const Footer = () => {
 	return (
-		<Center m={10} role="contentinfo">
+		<Center m={10}>
 			<Text fontSize="md" color="#bdc3c7">
 				&copy; Adam Byrne 2022
 			</Text>
