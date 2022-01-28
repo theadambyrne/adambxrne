@@ -6,7 +6,7 @@ import Tools from "./Tools";
 const Hero = () => {
 	return (
 		<Container maxW="container.md" mt={10}>
-			<Text fontSize="6xl" fontWeight="bold" translate="no" role="heading">
+			<Text fontSize="6xl" fontWeight="bold" translate="no">
 				Adam B<span style={{ color: "#F92672" }}>y</span>
 				rne
 			</Text>
