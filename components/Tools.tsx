@@ -9,7 +9,7 @@ import svelte from "../public/svelte.png";
 
 const Tools = () => {
 	return (
-		<Flex mt={10}>
+		<Flex mt={10} role="column">
 			<motion.div
 				animate={{ rotate: 360 }}
 				transition={{

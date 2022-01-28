@@ -10,8 +10,8 @@ const styles = {
 
 const WebDev = () => {
 	return (
-		<section>
-			<Text fontSize="2xl" color="#F92672">
+		<Box role="column">
+			<Text fontSize="2xl" color="#F92672" role="columnheader">
 				&lt;web.dev /&gt;
 			</Text>
 			<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
@@ -19,6 +19,7 @@ const WebDev = () => {
 					href={"https://dolphinscovecottage.com"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					role="link"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -36,6 +37,7 @@ const WebDev = () => {
 					href={"https://walledgardencottageloughderg.com"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					role="link"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -53,6 +55,7 @@ const WebDev = () => {
 					href={"http://siopa.io"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					role="link"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -64,7 +67,7 @@ const WebDev = () => {
 					</Box>
 				</Link>
 			</motion.div>
-		</section>
+		</Box>
 	);
 };
 

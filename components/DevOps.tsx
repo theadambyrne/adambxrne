@@ -10,8 +10,8 @@ const styles = {
 
 const DevOps = () => {
 	return (
-		<section>
-			<Text fontSize="2xl" color="#FD971F" mt={5}>
+		<Box role="column">
+			<Text fontSize="2xl" color="#FD971F" mt={5} role="columnheader">
 				&lt;dev.ops /&gt;
 			</Text>
 			<motion.div
@@ -22,6 +22,7 @@ const DevOps = () => {
 					href={"https://todesktop.com"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
+					role="link"
 				>
 					<Box style={styles}>
 						<Text fontSize="xl" fontWeight="bold">
@@ -36,7 +37,7 @@ const DevOps = () => {
 					</Box>
 				</Link>
 			</motion.div>
-		</section>
+		</Box>
 	);
 };
 
