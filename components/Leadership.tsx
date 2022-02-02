@@ -11,7 +11,7 @@ const styles = {
 const Leadership = () => {
 	return (
 		<Box mt={5}>
-			<Text fontSize="3xl" color="#66D9EF">
+			<Text fontSize="3xl" color="#66D9EF" fontWeight="bold">
 				&lt;leadership /&gt;
 			</Text>
 			<motion.div whileHover={{ rotate: 10 }} whileTap={{ scale: 0.9 }}>

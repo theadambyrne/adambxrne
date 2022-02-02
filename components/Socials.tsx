@@ -14,8 +14,16 @@ const Socials = () => {
 						rel="noreferrer"
 						passHref
 					>
-						<Text color="#F92672" fontSize="lg">
-							&lt;<span style={{ color: "#ffffff !important" }}>GitHub</span>
+						<Text color="#F92672" fontSize="xl" fontWeight="bold">
+							&lt;
+							<span
+								style={{
+									color: "#000 !important",
+									fontWeight: "normal !important",
+								}}
+							>
+								GitHub
+							</span>
 							/&gt;
 						</Text>
 					</Link>
@@ -30,8 +38,16 @@ const Socials = () => {
 						rel="noreferrer"
 						passHref
 					>
-						<Text color="#FD971F" fontSize="lg">
-							&lt;<span style={{ color: "#ffffff !important" }}>Twitter</span>
+						<Text color="#FD971F" fontSize="xl" fontWeight="bold">
+							&lt;
+							<span
+								style={{
+									color: "#000 !important",
+									fontWeight: "normal !important",
+								}}
+							>
+								Twitter
+							</span>
 							/&gt;
 						</Text>
 					</Link>
@@ -45,9 +61,16 @@ const Socials = () => {
 						rel="noreferrer"
 						passHref
 					>
-						<Text color="#66D9EF" fontSize="lg">
+						<Text color="#66D9EF" fontSize="xl" fontWeight="bold">
 							&lt;
-							<span style={{ color: "#ffffff !important" }}>StackOverflow</span>
+							<span
+								style={{
+									color: "#000 !important",
+									fontWeight: "normal !important",
+								}}
+							>
+								StackOverflow
+							</span>
 							/&gt;
 						</Text>
 					</Link>
@@ -64,7 +87,7 @@ const Socials = () => {
 						rel="noreferrer"
 						passHref
 					>
-						<Text fontSize="lg">✉️ adamrbyrne@gmail.com</Text>
+						<Text fontSize="xl">✉️ adamrbyrne@gmail.com</Text>
 					</Link>
 				</motion.div>
 				<Spacer />
@@ -76,7 +99,7 @@ const Socials = () => {
 						rel="noreferrer"
 						passHref
 					>
-						<Text fontSize="lg">📜 CV</Text>
+						<Text fontSize="xl">📜 CV</Text>
 					</Link>
 				</motion.div>
 				<Spacer />

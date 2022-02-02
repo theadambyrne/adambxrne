@@ -13,7 +13,7 @@ import Leadership from "../components/Leadership";
 
 const Home: NextPage = () => {
 	return (
-		<Box bg="#2c3e50" color="#fff">
+		<Box bg="#ecf0f1" color="#000">
 			<Head>
 				<title>portfolio@adambxrne</title>
 				<link rel="icon" href="/favicon.ico" />

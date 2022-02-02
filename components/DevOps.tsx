@@ -11,7 +11,7 @@ const styles = {
 const DevOps = () => {
 	return (
 		<Box mt={5}>
-			<Text fontSize="3xl" color="#FD971F">
+			<Text fontSize="3xl" color="#FD971F" fontWeight="bold">
 				&lt;dev.ops /&gt;
 			</Text>
 			<motion.div

@@ -1,7 +1,7 @@
 import { Box, Text, Center } from "@chakra-ui/react";
 export default function Custom500() {
 	return (
-		<Box bg="#2c3e50" mt={20}>
+		<Box mt={20}>
 			<Center>
 				<Text fontSize="4xl" color="#fff">
 					❌ Oops! Something went wrong.

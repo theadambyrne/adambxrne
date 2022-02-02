@@ -11,7 +11,7 @@ const styles = {
 const WebDev = () => {
 	return (
 		<Box>
-			<Text fontSize="3xl" color="#F92672">
+			<Text fontSize="3xl" color="#F92672" fontWeight="bold">
 				&lt;web.dev /&gt;
 			</Text>
 			<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>

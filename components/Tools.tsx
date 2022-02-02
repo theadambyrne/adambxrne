@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Box, Flex, Spacer } from "@chakra-ui/react";
 import { motion } from "framer-motion";
+import { Box, Flex, Spacer } from "@chakra-ui/react";
 
 import typescript from "../public/typescript.png";
 import react from "../public/react.png";
