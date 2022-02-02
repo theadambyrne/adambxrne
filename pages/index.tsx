@@ -1,10 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 
-//chakra components
 import { Box, Container } from "@chakra-ui/react";
 
-// custom components
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import WebDesign from "../components/WebDev";
@@ -13,7 +11,7 @@ import Leadership from "../components/Leadership";
 
 const Home: NextPage = () => {
 	return (
-		<Box bg="#ecf0f1" color="#000">
+		<Box bg="#f3f9fa">
 			<Head>
 				<title>portfolio@adambxrne</title>
 				<link rel="icon" href="/favicon.ico" />
@@ -22,7 +20,7 @@ const Home: NextPage = () => {
 				<meta name="description" content="Adam Byrne - Developer Portfolio" />
 				<meta
 					name="keywords"
-					content="portfolio,react,typescript,javascript,svelte,web development,web design,devops,sales,leadership,ireland"
+					content="portfolio,react,typescript,javascript,svelte,django,python,node,git,web development,web design,devops,sales,leadership,ireland"
 				/>
 				<meta name="robots" content="index, follow" />
 				<meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -33,12 +31,10 @@ const Home: NextPage = () => {
 
 			<Hero />
 
-			<Box mt={10}>
-				<Container maxW="container.md" mt={5}>
+			<Box mt={15}>
+				<Container maxW="container.md">
 					<WebDesign />
-
 					<DevOps />
-
 					<Leadership />
 				</Container>
 			</Box>

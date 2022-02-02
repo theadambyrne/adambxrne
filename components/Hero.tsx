@@ -4,8 +4,6 @@ import { Container, Text, Box } from "@chakra-ui/react";
 import Socials from "./Socials";
 import Tools from "./Tools";
 
-import headshot from "../public/headshot.jpg";
-
 const styles = {
 	width: "75px",
 	height: "75px",
@@ -15,7 +13,7 @@ const styles = {
 const Hero = () => {
 	return (
 		<Container maxW="container.md">
-			<Box>
+			<Box pt={10}>
 				<motion.div
 					animate={{ scale: [0, 0.75, 0.5, 1] }}
 					transition={{
