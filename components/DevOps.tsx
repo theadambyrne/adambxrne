@@ -26,10 +26,10 @@ const DevOps = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold">
+						<Text fontSize="xl" fontWeight="bold" color="white">
 							🚀 Consultant @ ToDesktop
 						</Text>
-						<Text fontSize="xl" fontWeight="normal">
+						<Text fontSize="xl" fontWeight="normal" color="white">
 							I created a tool to save money on AWS Infrastructure costs. It
 							analyses files stored in S3 bucket and cross-references them with
 							Stripe subscriptions in order to find redundant files and save

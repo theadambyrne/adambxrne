@@ -23,10 +23,10 @@ const WebDev = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold">
+						<Text fontSize="xl" fontWeight="bold" color="white">
 							🐬 Dolphin&apos;s Cove Cottage
 						</Text>
-						<Text fontSize="xl" fontWeight="normal">
+						<Text fontSize="xl" fontWeight="normal" color="white">
 							A gallery site to showcase a gem on the Wild Atlantic Way. The
 							site reduced the renters&apos; marketing costs significantly
 						</Text>
@@ -42,10 +42,10 @@ const WebDev = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold">
+						<Text fontSize="xl" fontWeight="bold" color="white">
 							🏡 Walled Garden Cottage, Lough Derg
 						</Text>
-						<Text fontSize="xl" fontWeight="normal">
+						<Text fontSize="xl" fontWeight="normal" color="white">
 							Another site to advertise a holiday cottage on Lough Derg. The
 							site gave the cottage a real online presence.
 						</Text>
@@ -61,10 +61,10 @@ const WebDev = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold">
+						<Text fontSize="xl" fontWeight="bold" color="white">
 							🛒 Siopa.io
 						</Text>
-						<Text fontSize="xl" fontWeight="normal">
+						<Text fontSize="xl" fontWeight="normal" color="white">
 							A multi-user shopping list app.
 						</Text>
 					</Box>

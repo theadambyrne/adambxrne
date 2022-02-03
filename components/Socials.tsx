@@ -3,7 +3,7 @@ import { Box, Flex, Spacer, Text, Link } from "@chakra-ui/react";
 
 const Socials = () => {
 	return (
-		<Box>
+		<Box color="white">
 			<Flex mt={5}>
 				<Spacer />
 				<motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
@@ -18,7 +18,7 @@ const Socials = () => {
 							&lt;
 							<span
 								style={{
-									color: "#000 !important",
+									color: "#fff !important",
 									fontWeight: "normal !important",
 								}}
 							>
@@ -42,7 +42,7 @@ const Socials = () => {
 							&lt;
 							<span
 								style={{
-									color: "#000 !important",
+									color: "#fff !important",
 									fontWeight: "normal !important",
 								}}
 							>
@@ -65,7 +65,7 @@ const Socials = () => {
 							&lt;
 							<span
 								style={{
-									color: "#000 !important",
+									color: "#fff !important",
 									fontWeight: "normal !important",
 								}}
 							>

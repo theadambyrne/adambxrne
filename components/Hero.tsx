@@ -13,7 +13,7 @@ const styles = {
 const Hero = () => {
 	return (
 		<Container maxW="container.md">
-			<Box pt={10}>
+			<Box pt={10} color="white">
 				<motion.div
 					animate={{ scale: [0, 0.75, 0.5, 1] }}
 					transition={{

@@ -2,7 +2,7 @@ import { Box, Text, Center } from "@chakra-ui/react";
 import Link from "next/link";
 export default function Custom404() {
 	return (
-		<Box mt={20} bg="#f3f9fa">
+		<Box mt={20} bg="#2f3640">
 			<Center>
 				<Text fontSize="4xl">📍 Looks like you&apos;re lost.</Text>
 			</Center>
