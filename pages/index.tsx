@@ -13,11 +13,14 @@ const Home: NextPage = () => {
 	return (
 		<Box bg="#2f3640">
 			<Head>
-				<title>portfolio@adambxrne</title>
+				<title>Adam Byrne | Developer Portfolio</title>
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="canonical" href="https://bxrne.com" />
-				<meta name="title" content="Adam Byrne - Developer Portfolio" />
-				<meta name="description" content="Adam Byrne - Developer Portfolio" />
+				<meta name="title" content="Adam Byrne | Developer Portfolio" />
+				<meta
+					name="description"
+					content="👉 Solving problems with code. I am an Irish Developer specialising in Node, React and Python."
+				/>
 				<meta
 					name="keywords"
 					content="portfolio,react,typescript,javascript,svelte,django,python,node,git,web development,web design,devops,sales,leadership,ireland"
