@@ -7,11 +7,11 @@ import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import WebDesign from "../components/WebDev";
 import DevOps from "../components/DevOps";
-import Leadership from "../components/Leadership";
+import Mentorship from "../components/Mentorship";
 
 const Home: NextPage = () => {
 	return (
-		<Box bg="#2f3640">
+		<Box bg="#011220">
 			<Head>
 				<title>Adam Byrne | Developer Portfolio</title>
 				<link rel="icon" href="/favicon.ico" />
@@ -30,6 +30,13 @@ const Home: NextPage = () => {
 				<meta name="language" content="English" />
 				<meta name="author" content="Adam Byrne" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta name="theme-color" content="#011220" />
+				<meta name="msapplication-TileColor" content="#011220" />
+				<meta name="msapplication-TileImage" content="/favicon.ico" />
+				<meta name="application-name" content="Adam Byrne" />
+				<meta name="apple-mobile-web-app-title" content="Adam Byrne" />
+				<meta name="apple-mobile-web-app-capable" content="yes" />
+				<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 			</Head>
 
 			<Hero />
@@ -38,7 +45,7 @@ const Home: NextPage = () => {
 				<Container maxW="container.md">
 					<WebDesign />
 					<DevOps />
-					<Leadership />
+					<Mentorship />
 				</Container>
 			</Box>
 			<Footer />

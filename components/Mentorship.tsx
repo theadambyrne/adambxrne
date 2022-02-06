@@ -8,13 +8,13 @@ const styles = {
 	padding: 10,
 };
 
-const Leadership = () => {
+const Mentorship = () => {
 	return (
 		<Box mt={5}>
 			<Text fontSize="3xl" color="#66D9EF" fontWeight="bold">
-				&lt;leadership /&gt;
+				mentorship
 			</Text>
-			<motion.div whileHover={{ rotate: 10 }} whileTap={{ scale: 0.9 }}>
+			<motion.div whileHover={{ x: [0, 50] }} whileTap={{ scale: 0.9 }}>
 				<Link
 					href={"https://player.vimeo.com/video/120291728?autoplay=1"}
 					target="_blank"
@@ -33,7 +33,7 @@ const Leadership = () => {
 					</Box>
 				</Link>
 			</motion.div>
-			<motion.div whileHover={{ rotate: -10 }} whileTap={{ scale: 0.9 }}>
+			<motion.div whileHover={{ x: [0, -50] }} whileTap={{ scale: 0.9 }}>
 				<Link
 					href={"https://dinglesailingclub.com/"}
 					target="_blank"
@@ -52,7 +52,7 @@ const Leadership = () => {
 					</Box>
 				</Link>
 			</motion.div>
-			<motion.div whileHover={{ rotate: 10 }} whileTap={{ scale: 0.9 }}>
+			<motion.div whileHover={{ x: [0, 50] }} whileTap={{ scale: 0.9 }}>
 				<Link
 					href={"https://dingledojo.com"}
 					target="_blank"
@@ -71,7 +71,7 @@ const Leadership = () => {
 					</Box>
 				</Link>
 			</motion.div>
-			<motion.div whileHover={{ rotate: -10 }} whileTap={{ scale: 0.9 }}>
+			<motion.div whileHover={{ x: [0, -50] }} whileTap={{ scale: 0.9 }}>
 				<Link
 					href={"https://dinglesailingclub.com/"}
 					target="_blank"
@@ -94,4 +94,4 @@ const Leadership = () => {
 	);
 };
 
-export default Leadership;
+export default Mentorship;

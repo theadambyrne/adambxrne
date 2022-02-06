@@ -15,7 +15,7 @@ const Hero = () => {
 		<Container maxW="container.md">
 			<Box pt={10} color="white">
 				<motion.div
-					animate={{ scale: [0, 0.75, 0.5, 1] }}
+					animate={{ x: [500, 0] }}
 					transition={{
 						type: "spring",
 						delay: 0,
@@ -27,10 +27,18 @@ const Hero = () => {
 						rne
 					</Text>
 				</motion.div>
-
-				<Text fontSize="2xl" fontWeight="normal">
-					👉 Solving problems with code.
-				</Text>
+				<motion.div
+					animate={{ x: [-500, 0] }}
+					transition={{
+						type: "spring",
+						delay: 0,
+						duration: 1,
+					}}
+				>
+					<Text fontSize="2xl" fontWeight="normal">
+						👉 Solving problems with code.
+					</Text>
+				</motion.div>
 			</Box>
 			<Tools />
 

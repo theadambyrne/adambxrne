@@ -3,7 +3,7 @@ import { Text, Box, Link } from "@chakra-ui/react";
 
 const styles = {
 	borderRadius: "10px",
-	border: "2px solid #FD971F",
+	border: "2px solid #49f626",
 	margin: 10,
 	padding: 10,
 };
@@ -11,8 +11,8 @@ const styles = {
 const DevOps = () => {
 	return (
 		<Box mt={5}>
-			<Text fontSize="3xl" color="#FD971F" fontWeight="bold">
-				&lt;dev.ops /&gt;
+			<Text fontSize="3xl" color="#49f626" fontWeight="bold">
+				$ dev ops
 			</Text>
 			<motion.div
 				whileHover={{ rotate: [0, 5, -5, 0] }}

@@ -19,6 +19,7 @@ const Tools = () => {
 					animate={{ rotate: 360 }}
 					transition={{
 						type: "spring",
+						delay: 1,
 						duration: 1,
 					}}
 				>
@@ -31,7 +32,7 @@ const Tools = () => {
 					animate={{ rotate: 360 }}
 					transition={{
 						type: "spring",
-						delay: 0.5,
+						delay: 1,
 						duration: 1,
 					}}
 				>
@@ -59,7 +60,7 @@ const Tools = () => {
 					animate={{ rotate: 360 }}
 					transition={{
 						type: "spring",
-						delay: 1.5,
+						delay: 1,
 						duration: 1,
 					}}
 				>
@@ -74,7 +75,7 @@ const Tools = () => {
 					transition={{
 						type: "spring",
 						duration: 1,
-						delay: 2,
+						delay: 1.5,
 					}}
 				>
 					<Box>
@@ -86,7 +87,7 @@ const Tools = () => {
 					animate={{ rotate: 360 }}
 					transition={{
 						type: "spring",
-						delay: 2.5,
+						delay: 1.5,
 						duration: 1,
 					}}
 				>
@@ -100,7 +101,7 @@ const Tools = () => {
 					animate={{ rotate: 360 }}
 					transition={{
 						type: "spring",
-						delay: 3,
+						delay: 1.5,
 						duration: 1,
 					}}
 				>
@@ -114,7 +115,7 @@ const Tools = () => {
 					animate={{ rotate: 360 }}
 					transition={{
 						type: "spring",
-						delay: 3.5,
+						delay: 1.5,
 						duration: 1,
 					}}
 				>
