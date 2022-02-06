@@ -38,7 +38,7 @@ const Socials = () => {
 						rel="noreferrer"
 						passHref
 					>
-						<Text color="#FD971F" fontSize="xl" fontWeight="bold">
+						<Text color="#49f626" fontSize="xl" fontWeight="bold">
 							&lt;
 							<span
 								style={{
