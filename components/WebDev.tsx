@@ -10,7 +10,7 @@ const styles = {
 
 const WebDev = () => {
 	return (
-		<Box>
+		<Box mt={10}>
 			<Text fontSize="3xl" color="#F92672" fontWeight="bold">
 				&lt;web.dev /&gt;
 			</Text>

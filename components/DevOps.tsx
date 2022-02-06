@@ -10,7 +10,7 @@ const styles = {
 
 const DevOps = () => {
 	return (
-		<Box mt={5}>
+		<Box mt={10}>
 			<Text fontSize="3xl" color="#49f626" fontWeight="bold">
 				$ dev ops
 			</Text>

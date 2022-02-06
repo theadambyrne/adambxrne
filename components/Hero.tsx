@@ -4,12 +4,6 @@ import { Container, Text, Box } from "@chakra-ui/react";
 import Socials from "./Socials";
 import Tools from "./Tools";
 
-const styles = {
-	width: "75px",
-	height: "75px",
-	borderRadius: "50%",
-};
-
 const Hero = () => {
 	return (
 		<Container maxW="container.md">
@@ -35,14 +29,18 @@ const Hero = () => {
 						duration: 1,
 					}}
 				>
-					<Text fontSize="2xl" fontWeight="normal">
+					<Text fontSize="2xl" fontWeight="normal" mt={3}>
 						👉 Solving problems with code.
 					</Text>
 				</motion.div>
 			</Box>
-			<Tools />
+			<Box mt={10}>
+				<Tools />
+			</Box>
 
-			<Socials />
+			<Box mt={5}>
+				<Socials />
+			</Box>
 		</Container>
 	);
 };

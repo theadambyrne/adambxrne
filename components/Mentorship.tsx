@@ -10,7 +10,7 @@ const styles = {
 
 const Mentorship = () => {
 	return (
-		<Box mt={5}>
+		<Box mt={10}>
 			<Text fontSize="3xl" color="#66D9EF" fontWeight="bold">
 				mentorship
 			</Text>
