@@ -35,6 +35,24 @@ const WebDev = () => {
 			</motion.div>
 			<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
 				<Link
+					href={"https://verba.vercel.app"}
+					target="_blank"
+					style={{ textDecoration: "none" }}
+					rel="noreferrer"
+					passHref
+				>
+					<Box style={styles}>
+						<Text fontSize="xl" fontWeight="bold" color="white">
+							🏛 Verba
+						</Text>
+						<Text fontSize="xl" fontWeight="normal" color="white">
+							A Wordle remake but in Latin!
+						</Text>
+					</Box>
+				</Link>
+			</motion.div>
+			<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
+				<Link
 					href={"https://walledgardencottageloughderg.com"}
 					target="_blank"
 					style={{ textDecoration: "none" }}
