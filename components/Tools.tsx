@@ -7,7 +7,8 @@ import react from "../public/react.png";
 import javascript from "../public/js.svg";
 import svelte from "../public/svelte.png";
 import python from "../public/python.png";
-import django from "../public/django.png";
+import solidity from "../public/solidity.png";
+import ethereum from "../public/ethereum.png";
 import node from "../public/node.png";
 import git from "../public/git.png";
 
@@ -79,7 +80,7 @@ const Tools = () => {
 					}}
 				>
 					<Box>
-						<Image src={python} alt="Python" height={50} width={50} />
+						<Image src={solidity} alt="Solidity" height={50} width={50} />
 					</Box>
 				</motion.div>
 				<Spacer />
@@ -92,7 +93,7 @@ const Tools = () => {
 					}}
 				>
 					<Box>
-						<Image src={django} alt="Django" height={50} width={50} />
+						<Image src={ethereum} alt="Ethereum" height={50} width={50} />
 					</Box>
 				</motion.div>
 

@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import WebDesign from "../components/WebDev";
 import DevOps from "../components/DevOps";
 import Mentorship from "../components/Mentorship";
+import Web3 from "../components/Web3";
 
 const Home: NextPage = () => {
 	return (
@@ -45,6 +46,7 @@ const Home: NextPage = () => {
 				<Container maxW="container.md">
 					<WebDesign />
 					<DevOps />
+					<Web3 />
 					<Mentorship />
 				</Container>
 			</Box>
