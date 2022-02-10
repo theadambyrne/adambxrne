@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 	return (
 		<Box bg="#011220">
 			<Head>
-				<title>Adam Byrne | Developer Portfolio</title>
+				<title>./portfolio</title>
 				<link rel="icon" href="/favicon.ico" />
 				<link rel="canonical" href="https://bxrne.com" />
 				<meta name="title" content="Adam Byrne | Developer Portfolio" />
