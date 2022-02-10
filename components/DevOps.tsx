@@ -12,7 +12,7 @@ const DevOps = () => {
 	return (
 		<Box mt={10}>
 			<Text fontSize="3xl" color="#49f626" fontWeight="bold">
-				$ ./devops
+				$&nbsp;&nbsp;&nbsp;./devops
 			</Text>
 			<motion.div
 				whileHover={{ rotate: [0, 5, -5, 0] }}

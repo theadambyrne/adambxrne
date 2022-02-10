@@ -44,8 +44,8 @@ const Home: NextPage = () => {
 
 			<Box mt={15}>
 				<Container maxW="container.md">
-					<WebDesign />
 					<DevOps />
+					<WebDesign />
 					<Web3 />
 					<Mentorship />
 				</Container>
