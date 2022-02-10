@@ -6,9 +6,6 @@ import typescript from "../public/typescript.png";
 import react from "../public/react.png";
 import javascript from "../public/js.svg";
 import svelte from "../public/svelte.png";
-import python from "../public/python.png";
-import solidity from "../public/solidity.png";
-import ethereum from "../public/ethereum.png";
 import node from "../public/node.png";
 import git from "../public/git.png";
 
@@ -55,45 +52,18 @@ const Tools = () => {
 						<Image src={react} alt="React" width={80} height={55} />
 					</Box>
 				</motion.div>
-
-				<Spacer />
-				<motion.div
-					animate={{ rotate: 360 }}
-					transition={{
-						type: "spring",
-						delay: 1,
-						duration: 1,
-					}}
-				>
-					<Box>
-						<Image src={svelte} alt="Svelte" height={50} width={50} />
-					</Box>
-				</motion.div>
 			</Flex>
 			<Flex>
 				<motion.div
 					animate={{ rotate: 360 }}
 					transition={{
 						type: "spring",
-						duration: 1,
-						delay: 1.5,
-					}}
-				>
-					<Box>
-						<Image src={solidity} alt="Solidity" height={50} width={50} />
-					</Box>
-				</motion.div>
-				<Spacer />
-				<motion.div
-					animate={{ rotate: 360 }}
-					transition={{
-						type: "spring",
 						delay: 1.5,
 						duration: 1,
 					}}
 				>
 					<Box>
-						<Image src={ethereum} alt="Ethereum" height={50} width={50} />
+						<Image src={svelte} alt="Svelte" height={50} width={50} />
 					</Box>
 				</motion.div>
 
