@@ -1,5 +1,6 @@
 html,
 body {
+	font-family: "Courier New", monospace !important;
 	padding: 0;
 	margin: 0;
 	background: #011220;
