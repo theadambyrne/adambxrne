@@ -49,7 +49,7 @@ const Tools = () => {
 					}}
 				>
 					<Box>
-						<Image src={react} alt="React" width={80} height={55} />
+						<Image src={react} alt="React" width={60} height={50} />
 					</Box>
 				</motion.div>
 				<Spacer />

@@ -53,6 +53,9 @@ const Socials = () => {
 					</Link>
 				</motion.div>
 				<Spacer />
+			</Flex>
+			<Flex mt={3}>
+				<Spacer />
 				<motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
 					<Link
 						href={"https://stackoverflow.com/users/13777286/adam-byrne"}
