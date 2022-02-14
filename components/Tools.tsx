@@ -52,8 +52,7 @@ const Tools = () => {
 						<Image src={react} alt="React" width={80} height={55} />
 					</Box>
 				</motion.div>
-			</Flex>
-			<Flex>
+				<Spacer />
 				<motion.div
 					animate={{ rotate: 360 }}
 					transition={{

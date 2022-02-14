@@ -16,7 +16,7 @@ const Hero = () => {
 						duration: 1,
 					}}
 				>
-					<Text fontSize="6xl" fontWeight="bold" translate="no">
+					<Text fontSize="5xl" fontWeight="bold" translate="no">
 						Adam B<span style={{ color: "#F92672" }}>y</span>
 						rne
 					</Text>

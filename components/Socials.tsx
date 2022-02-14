@@ -14,7 +14,7 @@ const Socials = () => {
 						rel="noreferrer"
 						passHref
 					>
-						<Text color="#F92672" fontSize="xl" fontWeight="bold">
+						<Text color="#F92672" fontSize="lg" fontWeight="bold">
 							&lt;
 							<span
 								style={{
@@ -38,7 +38,7 @@ const Socials = () => {
 						rel="noreferrer"
 						passHref
 					>
-						<Text color="#49f626" fontSize="xl" fontWeight="bold">
+						<Text color="#49f626" fontSize="lg" fontWeight="bold">
 							&lt;
 							<span
 								style={{
@@ -61,7 +61,7 @@ const Socials = () => {
 						rel="noreferrer"
 						passHref
 					>
-						<Text color="#66D9EF" fontSize="xl" fontWeight="bold">
+						<Text color="#66D9EF" fontSize="lg" fontWeight="bold">
 							&lt;
 							<span
 								style={{
