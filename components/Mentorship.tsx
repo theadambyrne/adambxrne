@@ -11,7 +11,7 @@ const styles = {
 const Mentorship = () => {
 	return (
 		<Box mt={10}>
-			<Text fontSize="3xl" color="#66D9EF" fontWeight="bold">
+			<Text fontSize="4xl" color="#66D9EF" fontWeight="bold">
 				mentorship
 			</Text>
 			<motion.div whileHover={{ x: [0, 50] }} whileTap={{ scale: 0.9 }}>
@@ -23,7 +23,7 @@ const Mentorship = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold" color="white">
+						<Text fontSize="2xl" fontWeight="bold" color="white">
 							📺 TV Series on Cúla4
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">
@@ -42,7 +42,7 @@ const Mentorship = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold" color="white">
+						<Text fontSize="2xl" fontWeight="bold" color="white">
 							⛵️ Instructor @ Dingle Sailing Club
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">
@@ -61,7 +61,7 @@ const Mentorship = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold" color="white">
+						<Text fontSize="2xl" fontWeight="bold" color="white">
 							📟 Mentor @ Dingle Coderdojo
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">
@@ -80,7 +80,7 @@ const Mentorship = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold" color="white">
+						<Text fontSize="2xl" fontWeight="bold" color="white">
 							💭 PRO @ Dingle Sailing Club
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">

@@ -11,7 +11,7 @@ const styles = {
 const DevOps = () => {
 	return (
 		<Box mt={10}>
-			<Text fontSize="3xl" color="#49f626" fontWeight="bold">
+			<Text fontSize="4xl" color="#49f626" fontWeight="bold">
 				$&nbsp;&nbsp;./devops
 			</Text>
 			<motion.div
@@ -26,7 +26,7 @@ const DevOps = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold" color="white">
+						<Text fontSize="2xl" fontWeight="bold" color="white">
 							🚀 Consultant @ ToDesktop
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">

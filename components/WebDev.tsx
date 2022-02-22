@@ -11,7 +11,7 @@ const styles = {
 const WebDev = () => {
 	return (
 		<Box mt={10}>
-			<Text fontSize="3xl" color="#F92672" fontWeight="bold">
+			<Text fontSize="4xl" color="#F92672" fontWeight="bold">
 				&lt;web.dev /&gt;
 			</Text>
 			<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
@@ -23,7 +23,7 @@ const WebDev = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold" color="white">
+						<Text fontSize="2xl" fontWeight="bold" color="white">
 							🐬 Dolphin&apos;s Cove Cottage
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">
@@ -42,7 +42,7 @@ const WebDev = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold" color="white">
+						<Text fontSize="2xl" fontWeight="bold" color="white">
 							🏛 Verba
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">
@@ -60,12 +60,12 @@ const WebDev = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold" color="white">
+						<Text fontSize="2xl" fontWeight="bold" color="white">
 							🏡 Walled Garden Cottage, Lough Derg
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">
-							Another site to advertise a holiday cottage on Lough Derg. The
-							site gave the cottage a real online presence.
+							A site to advertise a holiday cottage on Lough Derg. The site gave
+							the cottage a real online presence.
 						</Text>
 					</Box>
 				</Link>
@@ -79,7 +79,7 @@ const WebDev = () => {
 					passHref
 				>
 					<Box style={styles}>
-						<Text fontSize="xl" fontWeight="bold" color="white">
+						<Text fontSize="2xl" fontWeight="bold" color="white">
 							🛒 Siopa.io
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">
