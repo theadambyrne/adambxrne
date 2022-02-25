@@ -14,12 +14,15 @@ const Notification = ({ text }: notificationProps) => {
 			passhref
 		>
 			<Box
-				bg="#3d40c6"
+				// bg="#3d40c6"
 				fontWeight="bold"
 				textAlign="center"
 				fontSize="xl"
 				color="white"
 				p={5}
+				style={{
+					backgroundImage: "linear-gradient(180deg, #0A556F, #292E49);",
+				}}
 			>
 				<div>{text}</div>
 			</Box>
