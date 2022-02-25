@@ -12,7 +12,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
-						passHref
+						passhref
 					>
 						<Text color="#F92672" fontSize="xl">
 							&lt;
@@ -36,7 +36,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
-						passHref
+						passhref
 					>
 						<Text color="#49f626" fontSize="xl">
 							&lt;
@@ -62,7 +62,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
-						passHref
+						passhref
 					>
 						<Text color="#66D9EF" fontSize="xl">
 							&lt;
@@ -88,7 +88,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
-						passHref
+						passhref
 					>
 						<Text fontSize="xl">✉️ adamrbyrne@gmail.com</Text>
 					</Link>
@@ -100,7 +100,7 @@ const Socials = () => {
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
-						passHref
+						passhref
 					>
 						<Text fontSize="xl">📜 CV</Text>
 					</Link>

@@ -20,7 +20,7 @@ const Mentorship = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
-					passHref
+					passhref
 				>
 					<Box style={styles}>
 						<Text fontSize="2xl" fontWeight="bold" color="white">
@@ -39,7 +39,7 @@ const Mentorship = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
-					passHref
+					passhref
 				>
 					<Box style={styles}>
 						<Text fontSize="2xl" fontWeight="bold" color="white">
@@ -58,7 +58,7 @@ const Mentorship = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
-					passHref
+					passhref
 				>
 					<Box style={styles}>
 						<Text fontSize="2xl" fontWeight="bold" color="white">
@@ -77,7 +77,7 @@ const Mentorship = () => {
 					target="_blank"
 					style={{ textDecoration: "none" }}
 					rel="noreferrer"
-					passHref
+					passhref
 				>
 					<Box style={styles}>
 						<Text fontSize="2xl" fontWeight="bold" color="white">
