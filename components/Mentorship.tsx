@@ -84,8 +84,30 @@ const Mentorship = () => {
 							💭 PRO @ Dingle Sailing Club
 						</Text>
 						<Text fontSize="xl" fontWeight="normal" color="white">
-							2021-2022 I served the role of Public Relations Officer on the
-							Committee. Handling all social media and marketing activities.
+							2021-Present I am the PRO of the Dingle Sailing Club. I operate
+							all socials: Instagram, Twitter, Facebook, and Email. My role is
+							to advertise sailing, racing and events. I recently oversaw the
+							IUSA Intervarsities where all universities in Ireland raced in
+							Dingle.
+						</Text>
+					</Box>
+				</Link>
+			</motion.div>
+			<motion.div whileHover={{ x: [0, 50] }} whileTap={{ scale: 0.9 }}>
+				<Link
+					href={"https://dinglesailingclub.com/"}
+					target="_blank"
+					style={{ textDecoration: "none" }}
+					rel="noreferrer"
+					passhref
+				>
+					<Box style={styles}>
+						<Text fontSize="2xl" fontWeight="bold" color="white">
+							💭 Commodore @ Dingle Sailing Club
+						</Text>
+						<Text fontSize="xl" fontWeight="normal" color="white">
+							2022-Present As Commodore of Dingle Sailing Club, I chair the
+							committee and oversee the running of the club and future plans.
 						</Text>
 					</Box>
 				</Link>
