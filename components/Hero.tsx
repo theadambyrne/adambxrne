@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Container, Text, Box } from "@chakra-ui/react";
+import { Container, Text, Box, Link } from "@chakra-ui/react";
 
 import Socials from "./Socials";
 import Tools from "./Tools";
@@ -31,6 +31,26 @@ const Hero = () => {
 				>
 					<Text fontSize="2xl" fontWeight="normal" mt={3}>
 						👉 Solving problems with code.
+					</Text>
+				</motion.div>
+				<motion.div
+					animate={{ x: [500, 0] }}
+					transition={{
+						type: "spring",
+						delay: 0,
+						duration: 1,
+					}}
+				>
+					<Text fontSize="2xl" fontWeight="normal" mt={3}>
+						⛵️ Commodore and PRO{" "}
+						<Link
+							href="https://dinglesailingclub.com"
+							target="_blank"
+							rel="noreferrer"
+							passhref
+						>
+							<a>@dinglesailingclub</a>
+						</Link>
 					</Text>
 				</motion.div>
 			</Box>

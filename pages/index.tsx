@@ -9,7 +9,6 @@ import WebDesign from "../components/WebDev";
 import DevOps from "../components/DevOps";
 import Mentorship from "../components/Mentorship";
 import Web3 from "../components/Web3";
-import Notification from "../components/Notification";
 
 const Home: NextPage = () => {
 	return (
@@ -40,7 +39,6 @@ const Home: NextPage = () => {
 				<meta name="apple-mobile-web-app-capable" content="yes" />
 				<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 			</Head>
-			<Notification text="✍️ I'm writing on Hashnode" />
 
 			<Hero />
 
