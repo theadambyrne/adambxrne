@@ -96,7 +96,9 @@ const Socials = () => {
 				<Spacer />
 				<motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.9 }}>
 					<Link
-						href={"http://adambyrne.net/2022 Adam Byrne CV.pdf"}
+						href={
+							"https://docs.google.com/document/d/1mkCYjcPkElz3ewLRnkw7T4M_p8DVOcmUrxQWiahed6Q/edit?usp=sharing"
+						}
 						target="_blank"
 						style={{ textDecoration: "none", cursor: "pointer" }}
 						rel="noreferrer"
